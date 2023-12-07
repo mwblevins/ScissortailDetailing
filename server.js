@@ -21,7 +21,7 @@ app.post('/submit-form', (req, res) => {
         service: 'yahoo',
         auth: {
             user: 'progamer4@yahoo.com',
-            pass: 'h@rb1nger',
+            pass: 'zmdcszzkosarxchm',
         },
     });
 
