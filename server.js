@@ -1,5 +1,7 @@
 // server.js
 
+require('dotenv').config(); // Load environment variables from .env file
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -16,7 +18,7 @@ app.post('/submit-form', (req, res) => {
     const toEmail = 'progamer4@yahoo.com';
 
     const transporter = nodemailer.createTransport({
-        service: 'gmail',
+        service: 'yahoo',
         auth: {
             user: 'progamer4@yahoo.com',
             pass: 'h@rb1nger',
@@ -24,7 +26,7 @@ app.post('/submit-form', (req, res) => {
     });
 
     const mailOptions = {
-        from: 'your-email@gmail.com',
+        from: 'progamer4@yahoo.com',
         to: toEmail,
         subject: 'New Connection Form Submission',
         text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}`,
