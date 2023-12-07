@@ -1,0 +1,24 @@
+{
+  "name": "scissortaildetailing",
+  "version": "1.0.0",
+  "description": "basic install",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ScissortailDetailing"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "mwblevins",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  }
+}
