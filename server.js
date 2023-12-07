@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.post('/submit-form', (req, res) => {
     const { name, phone, email } = req.body;
 
-    const toEmail = 'michaelwblevins@gmail.com';
+    const toEmail = 'progamer4@yahoo.com';
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
