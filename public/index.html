@@ -3,14 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Connection Form</title>
+  <title>Scissortail Detailing</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <h1>Connection Form</h1>
+  <img src="https://cdn.glitch.global/f4307133-40fe-4d84-aae2-eaa57cf88e11/Scissortail%20Detailing%20Logo.jpg?v=1702143059715" alt="Scissortail Detailing Logo">
 </header>
 <main>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-container">
+      <div class="pricing-item">
+        <h3>Base Detail (Inside and Out)</h3>
+        <p>$200</p>
+        <ul>
+          <li>Gentle hand wash with foam</li>
+          <li>Vacuum of interior, rear cargo area, and trunk</li>
+          <li>Cleaning of windows, cup holders, door jam, and infotainment center</li>
+          <li>Cleaning of floor mats, tires, and tire shine</li>
+        </ul>
+      </div>
+
+      <div class="pricing-item">
+        <h3>Add-Ons</h3>
+        <ul>
+          <li>Pet Hair Removal - $40</li>
+          <li>Engine Detailing - $50</li>
+          <li>Spray Wax - $35</li>
+          <li>Hand Wax - $50</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-container">
+      <div class="testimonial-item">
+        <p>"Michael and TJ did an amazing job on my 2017 SUV. I give them 5 stars for showing up on time, working hard and doing a tremendous job. My vehicle is showroom beautiful inside and outside!! They definitely DETAILED it!!! I’m so pleased!!! Thank you so much for your kindness and courteousness, as well!."</p>
+        <p class="author">- Cindy</p>
+      </div>
+
+      <div class="testimonial-item">
+        <p>"Excellent work got my truck looking beautiful!! Would definitely recommend. Went above and beyond on making sure everything was up to par and as I wanted.."</p>
+        <p class="author">- Jimmy</p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <button id="rotateButton">Rotate Images</button>
+
+  <section id="image-slider">
+    <img src="placeholder1.jpg" alt="Placeholder 1">
+    <img src="placeholder2.jpg" alt="Placeholder 2">
+    <img src="placeholder3.jpg" alt="Placeholder 3">
+  </section>
+  <h2>Contact Us</h2>
   <form id="connectionForm" action="http://localhost:3000/submit-form" method="post">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
