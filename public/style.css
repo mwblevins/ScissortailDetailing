@@ -39,7 +39,7 @@ label {
 
 button {
     padding: 10px;
-    background-color: #008080; /* Teal color */
+    background-color: #008080;
     color: white;
     border: none;
     border-radius: 4px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #006666; /* Darker Teal color */
+    background-color: #006666;
 }
 
 #pricing {
