@@ -2,7 +2,7 @@
   "name": "scissortaildetailing",
   "version": "1.0.0",
   "description": "basic install",
-  "main": "public/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "test",
     "start": "node server.js"
