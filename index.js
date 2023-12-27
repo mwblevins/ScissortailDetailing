@@ -9,8 +9,19 @@ document.getElementById('connectionForm').addEventListener('submit', function (e
 
     console.log(`Form submitted: Name - ${name}, Phone - ${phone}, Email - ${email}`);
 
+    showSubmissionMessage();
+
     document.getElementById('connectionForm').reset();
 });
+
+function showSubmissionMessage() {
+    const submissionMessage = document.getElementById('submissionMessage');
+    submissionMessage.style.display = 'block';
+
+    setTimeout(function () {
+        submissionMessage.style.display = 'none';
+    }, 3000);
+}
 
 // Add the following code for image rotation
 let currentImageIndex = 0;
